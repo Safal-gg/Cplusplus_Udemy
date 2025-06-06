@@ -12,7 +12,9 @@
  #include<iostream>
  using namespace std;
 
- int main(){
+ int main()
+{
+
 int number_lrooms,number_srooms;
 float total_estimation,cost,tax;
 
@@ -24,7 +26,9 @@ cout<<"enter number of small rooms that you want to clean:";
 cin>>number_srooms;
 cout<<"enter number of large rooms that you want to clean:";
 cin>>number_lrooms;
+
 cout<<"============================================"<<endl;
+
 cout<<"number of small rooms:"<<number_srooms<<endl;
 cout<<"number of large rooms:"<<number_lrooms<<endl;
 cout<<"price per small room:$"<<sprice<<endl;
